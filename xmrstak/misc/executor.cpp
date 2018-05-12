@@ -556,30 +556,30 @@ void executor::ex_main()
 	{
 	case cryptonight_heavy:
 		if(dev_tls)
-			pools.emplace_front(0, "donate.xmr-stak.net:8888", "", "", "", 0.0, true, true, "", true);
+			pools.emplace_front(0, "donate.solace-coin.com:8888", "", "", "", 0.0, true, true, "", true);
 		else
-			pools.emplace_front(0, "donate.xmr-stak.net:5555", "", "", "", 0.0, true, false, "", true);
+			pools.emplace_front(0, "donate.solace-coin.com:5555", "", "", "", 0.0, true, false, "", true);
 		break;
 	
 	case cryptonight_monero:
 		if(dev_tls)
-			pools.emplace_front(0, "donate.xmr-stak.net:8800", "", "", "", 0.0, true, true, "", false);
+			pools.emplace_front(0, "donate.solace-coin.com:8800", "", "", "", 0.0, true, true, "", false);
 		else
-			pools.emplace_front(0, "donate.xmr-stak.net:5500", "", "", "", 0.0, true, false, "", false);
+			pools.emplace_front(0, "donate.solace-coin.com:5500", "", "", "", 0.0, true, false, "", false);
 		break;
 	case cryptonight_aeon:
 	case cryptonight_lite:
 		if(dev_tls)
-			pools.emplace_front(0, "donate.xmr-stak.net:7777", "", "", "", 0.0, true, true, "", true);
+			pools.emplace_front(0, "donate.solace-coin.com:7777", "", "", "", 0.0, true, true, "", true);
 		else
-			pools.emplace_front(0, "donate.xmr-stak.net:4444", "", "", "", 0.0, true, false, "", true);
+			pools.emplace_front(0, "donate.solace-coin.com:4444", "", "", "", 0.0, true, false, "", true);
 		break;
 
 	case cryptonight:
 		if(dev_tls)
-			pools.emplace_front(0, "donate.xmr-stak.net:6666", "", "", "", 0.0, true, true, "", false);
+			pools.emplace_front(0, "donate.solace-coin.com:6666", "", "", "", 0.0, true, true, "", false);
 		else
-			pools.emplace_front(0, "donate.xmr-stak.net:3333", "", "", "", 0.0, true, false, "", false);
+			pools.emplace_front(0, "donate.solace-coin.com:3333", "", "", "", 0.0, true, false, "", false);
 		break;
 
 	default:
